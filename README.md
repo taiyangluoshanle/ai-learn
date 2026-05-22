@@ -14,7 +14,7 @@ npm run dev
 浏览器打开 [http://localhost:3000](http://localhost:3000)
 
 - **首页** — 继续学习、路径入口
-- **`/learn/[slug]`** — 左侧说明 + 右侧 Sandpack 编辑器与输出（参考 [Codecademy](https://www.codecademy.com/)）
+- **`/learn/[slug]`** — 左侧说明 + 右侧代码编辑器与输出
 - **`/paths/ai-frontend-engineer`** — Career Path 大纲
 - **`/catalog`** — 课程目录
 
@@ -33,11 +33,10 @@ npm run dev
 ```
 ai-learn/
 ├── docs/                 # 学习文档（按阶段）
+├── content/              # 网站课程内容
+├── src/                  # Next.js 应用
 ├── projects/             # 实战项目
-│   ├── week-01-prompt-lab/
-│   ├── week-04-chat-ui/
-│   └── ...
-└── resources/            # 链接与参考资料
+└── supabase/             # 数据库迁移
 ```
 
 ## 预计周期
