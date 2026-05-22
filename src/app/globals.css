@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --cc-navy: #10162f;
+  --cc-navy-light: #1a2332;
+  --cc-yellow: #ffd300;
+  --cc-green: #3e8f5a;
+  --cc-border: #e5e7eb;
+  --cc-instruction: #f7f8fa;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--cc-navy);
+}
+
+/* Sandpack overrides for Codecademy-like editor */
+.sp-wrapper {
+  height: 100% !important;
+  min-height: 0 !important;
+}
+
+.sp-layout {
+  height: 100% !important;
+  border: none !important;
+  border-radius: 0 !important;
+}

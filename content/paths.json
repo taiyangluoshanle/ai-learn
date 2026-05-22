@@ -1,0 +1,24 @@
+{
+  "paths": [
+    {
+      "id": "ai-frontend-engineer",
+      "title": "AI Frontend Engineer",
+      "description": "从 LLM 基础到生产级 Chat、RAG 与 Copilot 前端实战",
+      "level": "Intermediate",
+      "hours": 120,
+      "phases": [
+        { "id": 1, "title": "AI 基础", "weeks": "1-2" },
+        { "id": 2, "title": "AI 前端核心", "weeks": "3-6" },
+        { "id": 3, "title": "产品化实战", "weeks": "7-9" },
+        { "id": 4, "title": "进阶与职业", "weeks": "10+" }
+      ],
+      "lessonSlugs": [
+        "week-01-intro-llm",
+        "week-01-tokens",
+        "week-01-first-api",
+        "week-02-prompt-patterns",
+        "week-02-structured-output"
+      ]
+    }
+  ]
+}
